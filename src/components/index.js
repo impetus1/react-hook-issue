@@ -6,8 +6,8 @@ import Home from './Home';
 import Dashboard from './protected/Dashboard';
 import { logout } from '../helpers/auth';
 import { firebaseAuth } from '../config/constants';
-import AppBar from 'material-ui/AppBar';
-import FlatButton from 'material-ui/FlatButton';
+import {AppBar} from 'material-ui/AppBar';
+import {FlatButton} from 'material-ui/FlatButton';
 
 function PrivateRoute({ component: Component, authed, ...rest }) {
   return (
